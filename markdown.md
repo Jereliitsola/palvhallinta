@@ -51,4 +51,17 @@ Githubista voidaan nähdä, että muutoksia on tapahtunut.
 
 ## d) Huppis! Tyhmä muutos.
 
+Tehdään jokin tarpeeton muutos README.md tiedostoon.
+
+![githubhuppis](https://user-images.githubusercontent.com/93517790/141513260-2da42e75-721b-43e1-b68f-3cbfa56ca70b.png)
+
+Tuloksena saadaan koodia:
+
+`git reset --hard`
+`HEAD is now at d265649 Edit markdown.md file`
+
+Tarkastellaan vielä lopuksi, että muutokset on todellakin tehty komennolla:
+
+`cat README.md`
+
 ## e) Formula. Tee uusi Salt-tila
