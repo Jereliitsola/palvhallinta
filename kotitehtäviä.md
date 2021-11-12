@@ -1,4 +1,4 @@
-##Palvelinten Hallinta
+## Palvelinten Hallinta
 
 ## Nämä tehtävät tehdään gittiä käyttäen.
 
@@ -7,3 +7,8 @@
 [Jeren Wordpress](https://jereliits.wordpress.com)
 
 Wohoo!
+	'koodin kirjoittaminen'
+
+ 'koodin kirjoittaminen'
+
+
