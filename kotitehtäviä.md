@@ -1,0 +1,9 @@
+##Palvelinten Hallinta
+
+## Nämä tehtävät tehdään gittiä käyttäen.
+
+*Tämän alle tulee linkki kotisivustolleni*
+
+[Jeren Wordpress](https://jereliits.wordpress.com)
+
+Wohoo!
