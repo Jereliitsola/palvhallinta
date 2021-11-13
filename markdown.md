@@ -1,5 +1,7 @@
 # h3 Versionhallinta - Jere Liitsola
 
+Tein harjoituksen lauantaina 13.11.2021 omalla tietokoneellani. Gittiä ajetaan VirtualBoxissa sijaitsevalla "Debian Bullseye 11" käyttöjärjestelmällä.
+
 ## Tiivistelmä
 
 [commonmark.org/help/](https://commonmark.org/help/)
@@ -15,6 +17,8 @@
 ## a)
 
 Raportti tehty MarkDownina :)
+
+En valitettavasti päässyt osallistumaan torstaina 11.11.2021 tunnille, joten käytin [Tero Karvisen](https://terokarvinen.com/2016/publish-your-project-with-github/?fromSearch=git) github artikkelia päästäkseni alkuun.
 
 ## b) Pull first
 
@@ -58,11 +62,13 @@ Tehdään jokin tarpeeton muutos README.md tiedostoon.
 Tuloksena saadaan koodia:
 
 `git reset --hard`
+
 `HEAD is now at d265649 Edit markdown.md file`
 
 Tarkastellaan vielä lopuksi, että muutokset on todellakin __jääneet tekemättä__ komennolla:
 
 `cat README.md`
+
 ![muutoksetEI](https://user-images.githubusercontent.com/93517790/141643085-238b6644-c26e-45d6-b288-41fd3da465a4.PNG)
 
 ## e) Formula. Tee uusi Salt-tila
@@ -72,6 +78,7 @@ Luodaan uusi, suhteellisen helppo salt-tila, jotta saadaan "lisätuntumaa" viel�
 Aloitetaan luomalla kansio ja muokkaamalla sen sisälle tulevaa koodi-tiedostoa:
 
 `sudo mkdir -p /srv/salt/startpacket`
+
 `sudoedit /srv/salt/startpacket/init.sls`
 
 Tiedoston sisälle:
@@ -85,6 +92,14 @@ Komentoa hyvä testata ensin:
 Jonka jälkeen se voidaan ajaa minioneille:
 
 ![image](https://user-images.githubusercontent.com/93517790/141643259-33c8b4ac-7b8b-4dca-9c8a-8580f4945038.png)
+
+Komento siis asentaa tree:n, apache2:n, mariadb-commonin ja varmistaa että apache2 on käynnissä.
+
+Lähteet:
+
+https://commonmark.org/help/
+
+
 
 
 
