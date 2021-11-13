@@ -18,7 +18,7 @@ Tein harjoituksen lauantaina 13.11.2021 omalla tietokoneellani. Gittiä ajetaan 
 
 Raportti tehty MarkDownina :)
 
-En valitettavasti päässyt osallistumaan torstaina 11.11.2021 tunnille, joten käytin [Tero Karvisen](https://terokarvinen.com/2016/publish-your-project-with-github/?fromSearch=git) github artikkelia päästäkseni alkuun. Käytin lähteenä myös [Career Karman artikkelia](
+En valitettavasti päässyt osallistumaan torstaina 11.11.2021 tunnille, joten käytin [Tero Karvisen](https://terokarvinen.com/2016/publish-your-project-with-github/?fromSearch=git) github artikkelia päästäkseni alkuun. Käytin lähteinä myös [Career Karman artikkelia git logiin](https://careerkarma.com/blog/git-log/) , sekä opettelin [git blame-komentoa](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame)
 
 ## b) Pull first
 
@@ -99,18 +99,12 @@ Lähteet:
 
 https://commonmark.org/help/
 
-
 https://terokarvinen.com/2016/publish-your-project-with-github/?fromSearch=git
-
 
 https://careerkarma.com/blog/git-log/ 
 
-Käytetty `git log` -komentoa opiskellessa.
-
-
 https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame 
 
-Käytetty `git blame` -komentoa opiskellessa.
 
 
 
