@@ -1,6 +1,6 @@
 # h3 Versionhallinta - Jere Liitsola
 
-Tein harjoituksen lauantaina 13.11.2021 omalla tietokoneellani. Gittiä ajetaan VirtualBoxissa sijaitsevalla "Debian Bullseye 11" käyttöjärjestelmällä.
+Tein harjoituksen lauantaina 13.11.2021 kotitietokoneellani. Gittiä ajetaan VirtualBoxissa sijaitsevalla "Debian Bullseye 11" käyttöjärjestelmällä.
 
 ## Tiivistelmä
 
