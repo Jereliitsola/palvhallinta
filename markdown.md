@@ -32,6 +32,7 @@ Sen jälkeen komennot järjestyksessä
 	
 ![Gitfirst](https://user-images.githubusercontent.com/93517790/141511722-b656098c-9cc2-41f6-a5d3-e9b373e317d1.png)
 
+`git commit`- komennon jälkeisellä rivillä voidaan huomata, että muutoksia tehdään __useampaan tiedostoon.__
 ![githubsecond](https://user-images.githubusercontent.com/93517790/141511736-943e421e-f53c-40a1-af9b-2a56ace76923.png)
 
 Githubista voidaan nähdä, että muutoksia on tapahtunut.
