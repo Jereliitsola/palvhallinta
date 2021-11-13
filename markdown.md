@@ -97,7 +97,7 @@ Jonka jälkeen se voidaan ajaa minioneille:
 
 ![image](https://user-images.githubusercontent.com/93517790/141643259-33c8b4ac-7b8b-4dca-9c8a-8580f4945038.png)
 
-Komento siis asentaa tree:n, apache2:n, mariadb-commonin ja varmistaa että apache2 on käynnissä.
+Komento siis asentaa tree:n, apache2:n, mariadb-commonin ja varmistaa että apache2 on käynnissä (sekä käynnistyy bootin yhteydessä).
 
 Lähteet:
 
