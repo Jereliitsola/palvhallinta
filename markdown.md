@@ -99,11 +99,18 @@ Lähteet:
 
 https://commonmark.org/help/
 
+
 https://terokarvinen.com/2016/publish-your-project-with-github/?fromSearch=git
 
-https://careerkarma.com/blog/git-log/ Käytetty `git log` -komentoa opiskellessa.
 
-https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame Käytetty `git blame` -komentoa opiskellessa.
+https://careerkarma.com/blog/git-log/ 
+
+Käytetty `git log` -komentoa opiskellessa.
+
+
+https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame 
+
+Käytetty `git blame` -komentoa opiskellessa.
 
 
 
