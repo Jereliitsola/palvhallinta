@@ -60,8 +60,32 @@ Tuloksena saadaan koodia:
 `git reset --hard`
 `HEAD is now at d265649 Edit markdown.md file`
 
-Tarkastellaan vielä lopuksi, että muutokset on todellakin tehty komennolla:
+Tarkastellaan vielä lopuksi, että muutokset on todellakin __jääneet tekemättä__ komennolla:
 
 `cat README.md`
+![muutoksetEI](https://user-images.githubusercontent.com/93517790/141643085-238b6644-c26e-45d6-b288-41fd3da465a4.PNG)
 
 ## e) Formula. Tee uusi Salt-tila
+
+Luodaan uusi, suhteellisen helppo salt-tila, jotta saadaan "lisätuntumaa" vielä jokseenkin tuntemattomaan aiheeseen.
+
+Aloitetaan luomalla kansio ja muokkaamalla sen sisälle tulevaa koodi-tiedostoa:
+
+`sudo mkdir -p /srv/salt/startpacket`
+`sudoedit /srv/salt/startpacket/init.sls`
+
+Tiedoston sisälle:
+
+![gitti](https://user-images.githubusercontent.com/93517790/141643090-effeca50-b55f-49d7-b6ea-b01de234a0a1.png)
+
+Komentoa hyvä testata ensin:
+
+`sudo salt-call --local -l info state.apply startpacket`
+
+Jonka jälkeen se voidaan ajaa minioneille:
+
+![image](https://user-images.githubusercontent.com/93517790/141643259-33c8b4ac-7b8b-4dca-9c8a-8580f4945038.png)
+
+
+
+
