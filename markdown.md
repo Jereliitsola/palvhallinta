@@ -71,7 +71,7 @@ Tuloksena saadaan koodia:
 
 `git reset --hard`
 
-`HEAD is now at d265649 Edit markdown.md file`
+`HEAD is now at d265649 Edit README.md file`
 
 Tarkastellaan vielä lopuksi, että muutokset on todellakin __jääneet tekemättä__ komennolla:
 
